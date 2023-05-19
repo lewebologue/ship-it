@@ -11,6 +11,12 @@
     "start": "node server.js",
     "test": "jest --verbose --coverage"
   },
+  "_moduleAliases": {
+    "@config": "src/config/",
+    "@utils": "src/utils/",
+    "@middlewares": "src/middlewares/",
+    "@users": "src/features/users/"
+  },
   "dependencies": {
     "aes-encryption": "1.0.4",
     "bcrypt": "5.1.0",
@@ -35,7 +41,7 @@
     "type": "git",
     "url": "git+https://github.com/lewebologue/ship-it.git"
   },
-  "author": "Luovic Thuard",
+  "author": "Ludovic Thuard",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/lewebologue/ship-it/issues"
