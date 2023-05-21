@@ -15,7 +15,8 @@
     "@config": "src/config/",
     "@utils": "src/utils/",
     "@middlewares": "src/middlewares/",
-    "@users": "src/features/users/"
+    "@users": "src/features/users/",
+    "@notifications": "src/features/notifications"
   },
   "dependencies": {
     "aes-encryption": "1.0.4",
